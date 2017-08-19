@@ -1,0 +1,37 @@
+{
+    "author": "Leonardo Mauro <leo.mauro.desenv@gmail.com> (http://leonardomauro.com/)",
+    "name": "smm-maker-profile",
+    "main": "lib/SmmMakerProfile.js",
+    "version": "1.2.2",
+    "description": "A package for fetching the Maker Profile - Super Mario Maker",
+    "files": [
+        "lib",
+        "test"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/leomaurodesenv/smm-maker-profile.git"
+    },
+    "keywords": [
+        "bookmark",
+        "mario",
+        "mario maker",
+        "super mario maker",
+        "nintendo",
+        "maker profile"
+    ],
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/leomaurodesenv/smm-maker-profile/issues"
+    },
+    "homepage": "https://github.com/leomaurodesenv/smm-maker-profile",
+    "dependencies": {
+        "htmlparser2": "3.9.2",
+        "node-datetime": "2.0.0",
+        "request": "2.81.0"
+    },
+    "devDependencies": {}
+}
