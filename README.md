@@ -6,9 +6,41 @@ Links:
 ___
    
 This module can request and fetching data information of Maker Profile (of Super Mario Maker) just passing the Nintendo ID of user.      
-By response the module call a callback function with 2 arguments (error, makerProfile). These arguments, the first is a boolean to check sucess in fetching and the second is a json with data information about the user.      
+By response the module call a callback function with 2 arguments `(error, makerProfile)`. These arguments, the first is a boolean to check sucess in fetching and the second is a json with data information about the user.      
    
 ___
+
+### Json `makerProfile`    
+The data information:    
+
+```js
+info: 
+  \_ user: nintendo ID,
+  \_ userUrl: https://supermariomakerbookmark.nintendo.net/profile/..,
+  \_ miiUrl: https://miiverse.nintendo.net/users/..,
+  \_ miiFace: http://mii-images.cdn.nintendo.net/..,
+  \_ flag: Country,
+  \_ name: Name
+stars: number
+medals: [ 'Goomba', 'Koopa Troopa', .., 'Princess Peach' ]
+marioChallenge: 
+  \_ easyClears: number,
+  \_ normalClears: number,
+  \_ expertClears: number,
+  \_ superExpertClears: number
+playHistory: 
+  \_ coursesPlayed: number,
+  \_ coursesCleared: number,
+  \_ totalPlays: number,
+  \_ livesLost: number
+```
+   
+* SmmMakerProfile.js: Main file to request;   
+* test.js: simple example how use it;   
+   
+___
+
+### Files
 
 ```
 /lib/
