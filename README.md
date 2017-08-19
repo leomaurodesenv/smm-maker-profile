@@ -1,11 +1,11 @@
 # smm-maker-profile #
 
 Links:      
-[npm](https://www.npmjs.com/package/smm-maker-profile) and [Github](https://github.com/leomaurodesenv/smm-maker-profile)   
-      
+[JsClasses](https://www.jsclasses.org/smm-maker-profile), [npm](https://www.npmjs.com/package/smm-maker-profile) and [Github](https://github.com/leomaurodesenv/smm-maker-profile)   
+
 ___
    
-this module can request and fetching data information of Maker Profile (of Super Mario Maker) just passing the Nintendo ID of user.      
+This module can request and fetching data information of Maker Profile (of Super Mario Maker) just passing the Nintendo ID of user.      
 By response the module call a callback function with 2 arguments (error, makerProfile). These arguments, the first is a boolean to check sucess in fetching and the second is a json with data information about the user.      
    
 ___
