@@ -2,7 +2,7 @@
     "author": "Leonardo Mauro <leo.mauro.desenv@gmail.com> (http://leonardomauro.com/)",
     "name": "smm-maker-profile",
     "main": "lib/SmmMakerProfile.js",
-    "version": "1.2.4",
+    "version": "1.2.5",
     "description": "A package for fetching the Maker Profile - Super Mario Maker",
     "files": [
         "lib",
