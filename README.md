@@ -15,12 +15,12 @@ The data information:
 
 ```js
 info: 
-  \_ user: nintendo ID,
-  \_ userUrl: https://supermariomakerbookmark.nintendo.net/profile/..,
-  \_ miiUrl: https://miiverse.nintendo.net/users/..,
-  \_ miiFace: http://mii-images.cdn.nintendo.net/..,
-  \_ flag: Country,
-  \_ name: Name
+  \_ user: 'Nintendo ID',
+  \_ userUrl: 'https://supermariomakerbookmark.nintendo.net/profile/..',
+  \_ miiUrl: 'https://miiverse.nintendo.net/users/..',
+  \_ miiFace: 'http://mii-images.cdn.nintendo.net/..',
+  \_ flag: 'Country',
+  \_ name: 'Name'
 stars: number
 medals: [ 'Goomba', 'Koopa Troopa', .., 'Princess Peach' ]
 marioChallenge: 
@@ -34,9 +34,6 @@ playHistory:
   \_ totalPlays: number,
   \_ livesLost: number
 ```
-   
-* SmmMakerProfile.js: Main file to request;   
-* test.js: simple example how use it;   
    
 ___
 
@@ -52,7 +49,7 @@ ___
   |__ test.js
 ```
    
-* SmmMakerProfile.js: Main file to request;   
+* SmmMakerProfile.js: main file to request;   
 * test.js: simple example how use it;   
    
 ___
