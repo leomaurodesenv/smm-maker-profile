@@ -5,9 +5,12 @@ Links:
 
 ___
    
-This module can request and fetching data information of Maker Profile (of Super Mario Maker) just passing the Nintendo ID of user.      
-By response the module call a callback function with 2 arguments `(error, makerProfile)`. These arguments, the first is a boolean to check sucess in fetching and the second is a json with data information about the user.      
+Maker Profile is the user information about the game Super Mario Maker. This module can fetch data from the official [bookmark site](https://supermariomakerbookmark.nintendo.net).    
+This module can request and fetching data information of Maker Profile just passing the Nintendo ID of user.      
+      
+By response the module call a callback function with 2 arguments `(error, makerProfile)`. These arguments: the first is a boolean to check sucess in fetching; and the second is a json with data information about the user.      
    
+Note: This module makes analysis on the html structure of the bookmark site. In case of site changes, the `smm-maker-profile` system may not work correctly.      
 ___
 
 ### Json `makerProfile`    
