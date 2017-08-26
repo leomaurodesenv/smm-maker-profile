@@ -11,6 +11,16 @@ This module can request and fetching data information of Maker Profile just pass
 By response the module call a callback function with 2 arguments `(error, makerProfile)`. These arguments: the first is a boolean to check sucess in fetching; and the second is a json with data information about the user.      
    
 Note: This module makes analysis on the html structure of the bookmark site. In case of site changes, the `smm-maker-profile` system may not work correctly.      
+
+___
+   
+**Changes**:
+* getWebContent changed to getMetaContent      
+      
+**New**:
+* getMetaCoursesContent: get profile content and courses details (uploaded, liked, fastest clear and first clear)      
+* getAllContent: get profile content and courses details (plus each ID course [search in each page])      
+      
 ___
 
 ### Json `makerProfile`    
@@ -35,7 +45,12 @@ playHistory:
   \_ coursesPlayed: number,
   \_ coursesCleared: number,
   \_ totalPlays: number,
-  \_ livesLost: number
+  \_ livesLost: number,
+  \_ courses: (only in getMetaCoursesContent | getAllContent)
+        \_ posted: number | object
+        \_ liked:  number | object
+        \_ fastest:  number | object
+        \_ first:  number | object
 ```
    
 ___
@@ -68,7 +83,7 @@ var SmmMakerProfile = require('smm-maker-profile');
 // For example to get infos of BRKsEDU
 // link: https://supermariomakerbookmark.nintendo.net/profile/BRKsEDU
 
-SmmMakerProfile.getWebContent('BRKsEDU', function(error, makerProfile) {
+SmmMakerProfile.getMetaContent('BRKsEDU', function(error, makerProfile) {
     if(error) console.log('> Page not found or Nintendo ID inexistent.');
     else{
         console.log(makerProfile);
