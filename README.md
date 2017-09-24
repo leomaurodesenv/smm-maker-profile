@@ -19,7 +19,7 @@ ___
       
 **New**:
 * getMetaCoursesContent: get profile content and courses details (uploaded, liked, fastest clear and first clear)      
-* getAllContent: get profile content and courses details (plus each ID course [search in each page])      
+* getAllContent: get profile content and courses details (plus each all data course [search in each page])      
       
 ___
 
