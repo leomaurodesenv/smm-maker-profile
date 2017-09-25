@@ -62,6 +62,7 @@ ___
   |__ Medals.js
   |__ Typography.js
   |__ CoursesMetrics.js
+  |__ CoursesWrapper.js
   |__ SmmMakerProfile.js
 /test/
   |__ test.js
