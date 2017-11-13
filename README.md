@@ -15,11 +15,14 @@ Note: This module makes analysis on the html structure of the bookmark site. In 
 ___
    
 **Changes**:
-* getWebContent changed to getMetaContent      
+* CoursesWrapper upgraded      
+* Fixed bugs with undefined users      
+
       
-**New**:
-* getMetaCoursesContent: get profile content and courses details (uploaded, liked, fastest clear and first clear)      
-* getAllContent: get profile content and courses details (plus each all data course [search in each page])      
+**Functions**:    
+* getMetaContent: get profile content;      
+* getMetaCoursesContent: get profile content and courses details (uploaded, liked, fastest clear and first clear);      
+* getAllContent: get profile content and courses details (plus data course [search in each page]);      
       
 ___
 
