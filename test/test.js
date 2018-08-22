@@ -4,7 +4,6 @@ const SmmMakerProfile = require("../lib/SmmMakerProfile.js");
 // ## Try capture some data from ID Nintendo user
 // For example to get infos of BRKsEDU
 // link: https://supermariomakerbookmark.nintendo.net/profile/BRKsEDU
-console.time('testing: smm-maker-profile');
 console.time('test');
 
 //SmmMakerProfile.getMetaContent('BRKsEDU', function(error, makerProfile) {
@@ -14,3 +13,4 @@ SmmMakerProfile.getMetaCoursesContent('BRKsEDU', function(error, makerProfile) {
     else console.log(makerProfile);
     console.timeEnd('test');
 });
+
