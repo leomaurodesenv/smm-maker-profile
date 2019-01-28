@@ -13,16 +13,19 @@ By response the module call a callback function with 2 arguments `(error, makerP
 Note: This module makes analysis on the html structure of the bookmark site. In case of site changes, the `smm-maker-profile` system may not work correctly.      
 
 ___
-   
-**Changes**:
-* CoursesWrapper upgraded      
-* Fixed bugs with undefined users      
 
-      
+### Installation
+
+```shell
+npm install --save smm-maker-profile
+```
+   
+___
+   
 **Functions**:    
 * getMetaContent: get profile content;      
 * getMetaCoursesContent: get profile content and courses details (uploaded, liked, fastest clear and first clear);      
-* getAllContent: get profile content and courses details (plus data course [search in each page]);      
+* getAllContent: get profile content and courses details (plus data course \[search in each page]);      
       
 ___
 
