@@ -5,8 +5,8 @@ Links:
 
 ___
    
-Maker Profile is the user information about the game Super Mario Maker. This module can fetch data from the official [bookmark site](https://supermariomakerbookmark.nintendo.net).    
-This module can request and fetching data information of Maker Profile just passing the Nintendo ID of user.      
+Maker Profile is the player information on Super Mario Maker game. This module can retrive data from the official [bookmark site](https://supermariomakerbookmark.nintendo.net).    
+This module can request and fetching data information of Maker Profile just passing the Nintendo ID of the player.      
       
 By response the module call a callback function with 2 arguments `(error, makerProfile)`. These arguments: the first is a boolean to check sucess in fetching; and the second is a json with data information about the user.      
    
@@ -98,10 +98,10 @@ SmmMakerProfile.getMetaContent('BRKsEDU', function(error, makerProfile) {
 });
 ```
    
-___
+---
    
-## Also look ~  	
-* [License GPL v3](LICENSE)
-* Create by Leonardo Mauro (leo.mauro.desenv@gmail.com)
-* Git: [leomaurodesenv](https://github.com/leomaurodesenv/)
-* Site: [Portfolio](http://leonardomauro.com/portfolio/)
+### Also look ~
+- [License GPL v3](LICENSE)
+- Create by Leonardo Mauro (leo.mauro.desenv@gmail.com)
+- Git: [leomaurodesenv](https://github.com/leomaurodesenv/)
+- Site: [Portfolio](http://leonardomauro.com/portfolio/)
