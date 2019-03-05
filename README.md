@@ -1,10 +1,9 @@
 # smm-maker-profile #
 
-Links:      
-[JsClasses](https://www.jsclasses.org/smm-maker-profile), [npm](https://www.npmjs.com/package/smm-maker-profile) and [Github](https://github.com/leomaurodesenv/smm-maker-profile)   
+Links: [JsClasses](https://www.jsclasses.org/smm-maker-profile), [npm](https://www.npmjs.com/package/smm-maker-profile) and [Github](https://github.com/leomaurodesenv/smm-maker-profile)   
 
-___
-   
+---
+
 Maker Profile is the player information on Super Mario Maker game. This module can retrive data from the official [bookmark site](https://supermariomakerbookmark.nintendo.net).    
 This module can request and fetching data information of Maker Profile just passing the Nintendo ID of the player.      
       
@@ -12,23 +11,21 @@ By response the module call a callback function with 2 arguments `(error, makerP
    
 Note: This module makes analysis on the html structure of the bookmark site. In case of site changes, the `smm-maker-profile` system may not work correctly.      
 
-___
-
+---
 ### Installation
 
 ```shell
 npm install --save smm-maker-profile
 ```
    
-___
-   
-**Functions**:    
-* getMetaContent: get profile content;      
-* getMetaCoursesContent: get profile content and courses details (uploaded, liked, fastest clear and first clear);      
-* getAllContent: get profile content and courses details (plus data course \[search in each page]);      
-      
-___
+---
 
+**Functions**:    
+* getMetaContent: get profile content.
+* getMetaCoursesContent: get profile content and courses details (uploaded, liked, fastest clear and first clear).
+* getAllContent: get profile content and courses details (plus data course \[search in each page]).
+      
+---
 ### Json `makerProfile`    
 The data information:    
 
@@ -59,8 +56,7 @@ playHistory:
         \_ first:  number | object
 ```
    
-___
-
+---
 ### Files
 
 ```
@@ -74,11 +70,10 @@ ___
   |__ test.js
 ```
    
-* SmmMakerProfile.js: main file to request;   
-* test.js: simple example how use it;   
+- SmmMakerProfile.js: main file to request;   
+- test.js: simple example how use it;   
    
-___
-   
+---
 ## Example  
 Example: How fetching a Maker Profile   
    
@@ -99,8 +94,8 @@ SmmMakerProfile.getMetaContent('BRKsEDU', function(error, makerProfile) {
 ```
    
 ---
-   
 ### Also look ~
+
 - [License GPL v3](LICENSE)
 - Create by Leonardo Mauro (leo.mauro.desenv@gmail.com)
 - Git: [leomaurodesenv](https://github.com/leomaurodesenv/)

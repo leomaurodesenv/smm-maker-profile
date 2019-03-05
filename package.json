@@ -1,6 +1,6 @@
 {
     "name": "smm-maker-profile",
-    "version": "1.5.4",
+    "version": "1.5.5",
     "description": "A package for fetching the Maker Profile - Super Mario Maker",
     "main": "lib/SmmMakerProfile.js",
     "directories": {
@@ -8,7 +8,7 @@
         "test": "test"
     },
     "scripts": {
-        "test": "/test/test.js"
+        "test": "test/test.js"
     },
     "repository": {
         "type": "git",
@@ -23,7 +23,7 @@
         "profile"
     ],
     "author": "Leonardo Mauro <leo.mauro.desenv@gmail.com> (http://leonardomauro.com/)",
-    "license": "UNLICENSED",
+    "license": "GPL-3.0-only",
     "bugs": {
         "url": "https://github.com/leomaurodesenv/smm-maker-profile/issues"
     },
