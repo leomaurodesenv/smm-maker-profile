@@ -1,14 +1,13 @@
-# smm-maker-profile #
+# smm-maker-profile
 
 Links: [JsClasses](https://www.jsclasses.org/smm-maker-profile), [npm](https://www.npmjs.com/package/smm-maker-profile) and [Github](https://github.com/leomaurodesenv/smm-maker-profile)   
 
 ---
-
 Maker Profile is the player information on Super Mario Maker game. This module can retrive data from the official [bookmark site](https://supermariomakerbookmark.nintendo.net).    
 This module can request and fetching data information of Maker Profile just passing the Nintendo ID of the player.      
-      
-By response the module call a callback function with 2 arguments `(error, makerProfile)`. These arguments: the first is a boolean to check sucess in fetching; and the second is a json with data information about the user.      
-   
+
+By response the module call a callback function with 2 arguments `(error, makerProfile)`. These arguments: the first is a boolean to check sucess in fetching; and the second is a json with data information about the user.   
+
 Note: This module makes analysis on the html structure of the bookmark site. In case of site changes, the `smm-maker-profile` system may not work correctly.      
 
 ---
@@ -19,14 +18,15 @@ npm install --save smm-maker-profile
 ```
    
 ---
+### Functions
 
-**Functions**:    
-* getMetaContent: get profile content.
-* getMetaCoursesContent: get profile content and courses details (uploaded, liked, fastest clear and first clear).
-* getAllContent: get profile content and courses details (plus data course \[search in each page]).
+- getMetaContent: get profile content.
+- getMetaCoursesContent: get profile content and courses details (uploaded, liked, fastest clear and first clear).
+- getAllContent: get profile content and courses details (plus data course \[search in each page]).
       
 ---
-### Json `makerProfile`    
+### Json `makerProfile`
+
 The data information:    
 
 ```js
@@ -57,25 +57,9 @@ playHistory:
 ```
    
 ---
-### Files
-
-```
-/lib/
-  |__ Medals.js
-  |__ Typography.js
-  |__ CoursesMetrics.js
-  |__ CoursesWrapper.js
-  |__ SmmMakerProfile.js
-/test/
-  |__ test.js
-```
-   
-- SmmMakerProfile.js: main file to request;   
-- test.js: simple example how use it;   
-   
----
 ## Example  
-Example: How fetching a Maker Profile   
+
+Example: How fetching a Maker Profile.
    
 ```js
 /* Include */
@@ -92,7 +76,7 @@ SmmMakerProfile.getMetaContent('BRKsEDU', function(error, makerProfile) {
     }
 });
 ```
-   
+
 ---
 ### Also look ~
 

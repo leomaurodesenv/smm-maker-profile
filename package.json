@@ -1,7 +1,7 @@
 {
     "name": "smm-maker-profile",
-    "version": "1.5.5",
-    "description": "A package for fetching the Maker Profile - Super Mario Maker",
+    "version": "1.5.6",
+    "description": "A package to fetching the Maker Profile - Super Mario Maker",
     "main": "lib/SmmMakerProfile.js",
     "directories": {
         "lib": "lib",
